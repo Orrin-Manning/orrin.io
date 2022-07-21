@@ -5,7 +5,7 @@
 
 <div class="container">
   <h1>
-    <code style=" display: flex; flex-wrap: false">
+    <code style=" display: flex">
       <div>{'['}</div>
       {#if username}
         <div>{`${username}@`}</div>
