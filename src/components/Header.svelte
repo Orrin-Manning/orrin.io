@@ -6,15 +6,15 @@
 <div class="site-header">
   <h1>
     <code style=" display: flex; flex-wrap: false">
-      <p class="logo-string">{'['}</p>
+      <div>{'['}</div>
       {#if username}
-        <p class="logo-string">{`${username}@`}</p>
+        <div>{`${username}@`}</div>
       {/if}
-      <p class="logo-string">orrin.io</p>
+      <div>orrin.io</div>
       {#if path}
-        <p class="logo-string logo-path">{` ${path}`}</p>
+        <div class="path">{` ${path}`}</div>
       {/if}
-      <p class="logo-string">{']$'}</p>
+      <div>{']$'}</div>
     </code>
   </h1>
 </div>
@@ -25,11 +25,7 @@
     justify-content: left;
   }
 
-  .logo-string {
-    margin: 0;
-  }
-
-  .logo-path {
+  .path {
     white-space: pre;
   }
 </style>
