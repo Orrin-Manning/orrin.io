@@ -3,7 +3,7 @@
   export let path = '~';
 </script>
 
-<div class="site-header">
+<div class="container">
   <h1>
     <code style=" display: flex; flex-wrap: false">
       <div>{'['}</div>
@@ -20,7 +20,7 @@
 </div>
 
 <style>
-  .site-header {
+  .container {
     display: flex;
     justify-content: left;
   }
