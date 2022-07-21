@@ -22,7 +22,7 @@
 <style>
   .site-header {
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   .logo-string {
