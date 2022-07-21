@@ -1,6 +1,6 @@
 <script lang="ts">
-  export let username: string | null = null;
-  export let path: string | null = null;
+  export let username = 'guest';
+  export let path = '~';
 </script>
 
 <div class="site-header">
