@@ -3,6 +3,7 @@
   export let path = '~';
 </script>
 
+<header class="flex justify-start">
   <h1 class="flex font-mono font-bold">
     <div>{'['}</div>
     {#if username}
@@ -14,4 +15,4 @@
     {/if}
     <div>{']$'}</div>
   </h1>
-</div>
+</header>
