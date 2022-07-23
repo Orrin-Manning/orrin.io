@@ -12,7 +12,7 @@
       {/if}
       <div>orrin.io</div>
       {#if path}
-        <div class="whitespace-pre">{` ${path}`}</div>
+      <pre>{` ${path}`}</pre>
       {/if}
       <div>{']$'}</div>
     </code>
