@@ -3,29 +3,18 @@
   export let path = '~';
 </script>
 
-<div class="container">
+<div class="flex justify-start">
   <h1>
-    <code style=" display: flex">
+    <code>
       <div>{'['}</div>
       {#if username}
         <div>{`${username}@`}</div>
       {/if}
       <div>orrin.io</div>
       {#if path}
-        <div class="path">{` ${path}`}</div>
+        <div class="whitespace-pre">{` ${path}`}</div>
       {/if}
       <div>{']$'}</div>
     </code>
   </h1>
 </div>
-
-<style>
-  .container {
-    display: flex;
-    justify-content: left;
-  }
-
-  .path {
-    white-space: pre;
-  }
-</style>
