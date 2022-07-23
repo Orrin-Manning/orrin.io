@@ -5,7 +5,7 @@
 
 <div class="flex justify-start">
   <h1>
-    <code style=" display: flex">
+    <code>
       <div>{'['}</div>
       {#if username}
         <div>{`${username}@`}</div>
