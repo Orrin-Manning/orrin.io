@@ -12,7 +12,7 @@
       {/if}
       <div>orrin.io</div>
       {#if path}
-        <div class="path">{` ${path}`}</div>
+        <div class="whitespace-pre">{` ${path}`}</div>
       {/if}
       <div>{']$'}</div>
     </code>
@@ -23,9 +23,5 @@
   .container {
     display: flex;
     justify-content: left;
-  }
-
-  .path {
-    white-space: pre;
   }
 </style>
