@@ -15,7 +15,7 @@
     {/if}
     <div>{']$'}</div>
   </h1>
-  <button class="px-3 py-2 font-bold text-red-600 border-2 border-red-600 rounded-lg"
+  <button class="px-3 py-2 font-medium text-red-600 border-2 border-red-600 rounded-lg"
     >Sign in!</button
   >
 </header>
