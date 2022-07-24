@@ -3,7 +3,7 @@
   export let path = '~';
 </script>
 
-<header class="flex items-baseline">
+<header class="flex justify-between items-baseline">
   <h1 class="flex font-mono font-bold">
     <div>{'['}</div>
     {#if username}
