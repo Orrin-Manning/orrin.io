@@ -3,5 +3,7 @@
   import Header from '../components/Header.svelte';
 </script>
 
-<Header />
-<slot />
+<div class="min-h-screen text-amber-200 bg-zinc-800">
+  <Header />
+  <slot />
+</div>
