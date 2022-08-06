@@ -10,7 +10,7 @@
   let socialButtons: socialButton[] = [
     {
       icon: 'fa-github',
-      text: 'Follow me on Github',
+      text: 'Follow me on GitHub',
       link: 'https://github.com/Orrin-Manning',
       fgColor: 'text-white',
       bgColor: 'bg-neutral-900'
