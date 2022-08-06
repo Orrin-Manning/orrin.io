@@ -46,7 +46,7 @@
 <main class="flex flex-col items-center">
   <ul>
     {#each socialButtons as button, i}
-      <li class={i != socialButtons.length - 1 ? 'mb-4' : undefined}>
+      <li class="mb-4 last:mb-0">
         <a href={button.link} class="flex p-4 {button.fgColor} {button.bgColor} rounded-2xl">
           <span class="fa-brands {button.icon} mr-4 text-2xl" />
           <span class="flex-grow font-sans text-center">{button.text}</span>
