@@ -49,7 +49,7 @@
       <li class="mb-4 last:mb-0">
         <a href={button.link} class="flex p-4 {button.fgColor} {button.bgColor} rounded-2xl">
           <span class="fa-brands fa-fw {button.icon} mr-4 text-2xl" />
-          <span class="flex-grow font-sans text-center">{button.text}</span>
+          <span class="flex-grow text-center">{button.text}</span>
         </a>
       </li>
     {/each}
