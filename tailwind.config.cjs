@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Saira', ...defaultTheme.fontFamily.sans]
+        sans: ['Raleway', ...defaultTheme.fontFamily.sans]
       }
     }
   },
