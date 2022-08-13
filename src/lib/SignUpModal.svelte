@@ -11,6 +11,7 @@
         <div class="line -rotate-45" />
       </button>
       <h1 class="mb-8 font-bold text-3xl">Sign Up</h1>
+      <button class="p-4 font-bold text-white bg-blue-500 rounded-2xl">Sign Up With Email</button>
     </div>
   </div>
 {/if}
